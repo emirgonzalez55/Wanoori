@@ -1,0 +1,184 @@
+
+/*body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+*/
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  padding-top: 100px;
+
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+body.dark-theme img {
+  filter: brightness(.8) contrast(1.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      --color-bg: rgb(47, 47, 47);
+      --color-texto: #FDFEFE;
+  }
+
+  body.light-theme {
+      --color-bg: #FDFEFE;
+      --color-texto: #17202A;
+  }
+
+  img {
+      filter: brightness(.8) contrast(1.2);
+  }
+  
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+h1 {
+  color: var(--color-texto);
+}
+.lead{
+  color: var(--color-texto)
+}
+.boton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.container{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  vertical-align:auto;
+  text-align: center;
+  
+}
+.col-md-3{
+  color: var(--color-texto)
+}
+.mensaje{
+  color: var(--color-texto)
+  
+}
+.Tablas{
+  color: var(--color-texto)
+}
+.Tablas {
+  margin: auto;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+.boton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.consulta{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  padding-top: 1px;
+}
+.buscar{
+  display: block;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.Search{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.user{
+  margin: auto;
+  background-color:white;
+
+ 
+}
+.table{
+  margin: auto;
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.titulo{
+  color: var(--color-texto)
+}
+.titulo{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.figure{
+  
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.dropdown-menu{
+  margin-left: 30%;
+}
+.dropdown-toggle {
+  width: max-content;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.pelicula{
+  width: 100%;
+  margin: auto;
+  margin-top: auto;
+}
+.trailer{
+  width: 90%;
+
+  margin: auto;
+  margin-top: auto;
+}
+.card-body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: flex-start;
+}
+.img-fluid {
+  max-width: 300px;
+  height: 425px;
+}
