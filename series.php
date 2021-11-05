@@ -1,49 +1,51 @@
-<?php  
+<?php
 include 'base/base.php';
 require 'bd.php';
 $em = $conexion->query("SELECT idpelicula,imagen,nombre FROM contenidos WHERE tipo='serie';");
-$result = $em->fetchAll(PDO::FETCH_OBJ);	
+$result = $em->fetchAll(PDO::FETCH_OBJ);
 ?>
 
 <!doctype html>
+
 <head>
-  <title>series</title>
+	<title>series</title>
 </head>
-    
+
 <body>
-    <h1 class="Tablas">Listado de series</h1>
+	<h1 class="Tablas">Listado de series</h1>
 
 
 
-		
-			<?php 
-				foreach ($result as $dato) {
-					?>
-					<tr>
-						
 
-				<div class="figure titulo text-center">
-					
-						<td> <?php echo  $dato->imagen; ?>  </td> 
-						<br>
-						<td> <?php  echo $dato->nombre;  ?></td>
-						<br>
-						<td><a class="btn btn-success" href="agregaralista.php?idpelicula=<?php echo $dato->idpelicula; ?>">Agregar a mi lista </a></td>
+	<?php
+	foreach ($result as $dato) {
+	?>
+		<main class="grid">
+			<article class="text-white bg-dark mb-3 ">
+				<?php echo  $dato->imagen; ?>
+				<div class="card-title ">
+					<p class="line-clamp"><?php echo $dato->nombre;  ?></p>
+					<a class="bi bi-plus-circle plus " href="agregaralista.php?idpelicula=<?php echo $dato->idpelicula; ?>"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+							<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+							<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+						</svg> <br> Mi lista</a>
+				</div>
+			</article>
+		</main>
+	<?php
+	}
+	?>
 
-              </div>
-					</tr>
-					<?php
-				}
-			?>
 	<body>
-	
 
 
 
 
-	</body> 
-</html>
-<?php
-  $conexion = null;
-  $em = null;
-?>
+
+	</body>
+
+	</html>
+	<?php
+	$conexion = null;
+	$em = null;
+	?>
