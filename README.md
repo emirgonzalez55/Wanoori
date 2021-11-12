@@ -10,7 +10,7 @@ Actualización V1.211111934BETA<br/>
 -Se mejoro el aspeto visual de la web.<br/>
 -Se mejoro el diseño web adaptable(responsive).<br/>
 
-Versiones anteriores.
+Versiones anteriores.<br/>
 Actualización V1.211105710BETA<br/>
 -Se mejoro el aspeto visual de la web.<br/>
 -Se mejoro el diseño web adaptable(responsive).<br/>
