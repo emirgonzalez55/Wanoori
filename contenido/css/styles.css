@@ -168,7 +168,7 @@ h1 {
 }
 .trailer{
   width: 90%;
-
+  height: 600px;
   margin: auto;
   margin-top: auto;
 }
@@ -179,6 +179,29 @@ h1 {
   align-content: flex-start;
 }
 .img-fluid {
-  max-width: 300px;
-  height: 425px;
+  max-width: 100%;
+}
+@media only screen and (max-width: 414px) {
+  .trailer{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: auto;
+  }
+  .pelicula{
+    width: 100%;
+    margin: auto;
+    margin-top: auto;
+  }
+  .img-fluid {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+.line-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }

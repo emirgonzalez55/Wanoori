@@ -9,7 +9,7 @@ include '../base/base.php'
 <body>
 <div class="mb-3 pelicula mensaje" style="max-width: 1052px;">
   <div class="row g-0">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <img src="img/GTA-V.jpg"  class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
@@ -23,8 +23,8 @@ include '../base/base.php'
     </div>
   </div>
 </div>
-<div class="trailer" style="max-width: 90%;"  >
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/QkkoHAzjnUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="trailer" style="max-width: 100%;"  >
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/QkkoHAzjnUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
