@@ -20,7 +20,7 @@
       $_SESSION['idusuario'] = $results['idusuario'];
       header("Location:inicio.php");
     } else {
-      $message = 'El usaurio ingresado no existe';
+      $message = '¡El usuario y/o contraseña son incorrectos!';
     }
   } 
   

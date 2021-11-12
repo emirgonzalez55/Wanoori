@@ -24,10 +24,10 @@
       $message = 'Error detectado';
     }
   }else{
-    $message = 'Las contraseñas no coinciden!';
+    $message = '¡Las contraseñas no coinciden!';
   }
  }else{
-  $message = 'El usuario ya existe!';
+  $message = '¡El usuario ya existe!';
  }
 }
 ?>
