@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-11-2021 a las 10:46:14
+-- Tiempo de generación: 12-11-2021 a las 01:29:12
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 5.6.40
 
@@ -40,9 +40,15 @@ CREATE TABLE `contenidos` (
 --
 
 INSERT INTO `contenidos` (`idpelicula`, `nombre`, `tipo`, `imagen`) VALUES
-(13, 'Matrix 4', 'pelicula', '<a href=\"contenido/peliculas/matrix.php\">  <img class=\"img-fluid\" width=\"260\" height=\"370\" src=\"contenido/peliculas/img/matrix.png\" ></a>'),
-(14, 'Go toubun no hanayome', 'serie', '<a href=\"contenido/series/gotoubun.php\">  <img  class=\"img-fluid\" width=\"260\" height=\"370\"  src=\"contenido/series/img/gotoubun.jpg\" ></a>'),
-(15, 'grand theft auto v', 'juego', '<a href=\"contenido/juegos/gta-v.php\">  <img class=\"img-fluid\" width=\"260\" height=\"370\"  src=\"contenido/juegos/img/GTA-V.jpg\" ></a>');
+(13, 'Matrix 4', 'pelicula', '<a href=\"contenido/peliculas/matrix.php\">  <img  src=\"contenido/peliculas/img/matrix.png\" ></a>'),
+(14, 'Go toubun no hanayome', 'serie', '<a href=\"contenido/series/gotoubun.php\">  <img   src=\"contenido/series/img/gotoubun.jpg\" ></a>'),
+(15, 'grand theft auto v', 'juego', '<a href=\"contenido/juegos/gta-v.php\">  <img   src=\"contenido/juegos/img/GTA-V.jpg\" ></a>'),
+(16, 'Naruto', 'serie', '<a href=\"contenido/series/naruto.php\">  <img   src=\"contenido/series/img/Naruto.jpg\" ></a>'),
+(17, 'La guerra de las galaxias. Episodio I', 'pelicula', '<a href=\"contenido/peliculas/star_wars.php\">  <img  src=\"contenido/peliculas/img/starwars.jpg\" ></a>'),
+(18, 'League of Legends', 'juego', '<a href=\"contenido/juegos/lol.php\">  <img   src=\"contenido/juegos/img/lol.jpg\" ></a>'),
+(19, 'StarCraft', 'juego', '<a href=\"contenido/juegos/starcraft.php\">  <img   src=\"contenido/juegos/img/StarCraft.jpg\" ></a>'),
+(20, 'Dragon Ball', 'serie', '<a href=\"contenido/series/dragonball.php\">  <img   src=\"contenido/series/img/DragonBall.jpg\" ></a>'),
+(21, 'Regreso al futuro', 'pelicula', '<a href=\"contenido/peliculas/regresoalfuturo.php\">  <img  src=\"contenido/peliculas/img/Regresoalfuturo.jpg\" ></a>');
 
 -- --------------------------------------------------------
 
@@ -63,7 +69,10 @@ CREATE TABLE `favoritos` (
 INSERT INTO `favoritos` (`idfavorito`, `idusuario`, `idpelicula`) VALUES
 (62, 1, 15),
 (65, 1, 13),
-(66, 1, 14);
+(66, 1, 14),
+(75, 2, 14),
+(77, 2, 15),
+(82, 2, 13);
 
 -- --------------------------------------------------------
 
@@ -117,19 +126,19 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `contenidos`
 --
 ALTER TABLE `contenidos`
-  MODIFY `idpelicula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `idpelicula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT de la tabla `favoritos`
 --
 ALTER TABLE `favoritos`
-  MODIFY `idfavorito` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `idfavorito` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas
