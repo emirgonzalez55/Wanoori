@@ -8,13 +8,12 @@ Actualización V1.2202062000BETA<br/>
 -Corrección de errores.<br/>
 -Mejoras visuales.<br/>
 
+Versiones anteriores.<br/>
 Actualización V1.211111934BETA<br/>
 -Corrección de errores.<br/>
 -Contenido nuevo.<br/>
 -Se mejoro el aspeto visual de la web.<br/>
 -Se mejoro el diseño web adaptable(responsive).<br/>
-
-Versiones anteriores.<br/>
 Actualización V1.211105710BETA<br/>
 -Se mejoro el aspeto visual de la web.<br/>
 -Se mejoro el diseño web adaptable(responsive).<br/>
