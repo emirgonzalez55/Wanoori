@@ -1,6 +1,6 @@
 <?php
 
-include '../base/base.php'
+include '../../base/base.php'
  ?>  
 <!doctype html>
 <head>
@@ -21,7 +21,7 @@ include '../base/base.php'
       <p>Año:  2009</p>
       <p>MOBA, Videojuego de rol de acción </p>
       <h4>sinopsis:</h4>
-      <p class="line-clamp">League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games para Microsoft Windows y OS X.</p>
+      <p class="line-clamp-descripción">League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games para Microsoft Windows y OS X.</p>
       </div>
     </div>
   </div>

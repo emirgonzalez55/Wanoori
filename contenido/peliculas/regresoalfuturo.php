@@ -1,6 +1,6 @@
 <?php
 
-include '../base/base.php'
+include '../../base/base.php'
  ?>  
 <!doctype html>
 <head>
@@ -22,7 +22,7 @@ include '../base/base.php'
       <p>Géneros: Aventura Ciencia Ficción Comedia </p>
       <p>Reparto: Michael J. Fox...</p>
       <h4>sinopsis:</h4>
-      <p class="line-clamp">Marty McFly es un adolescente amigo de Doc, un científico a los que todos menos él toman por chiflado. Cuando Doc crea una máquina para viajar en el tiempo en forma de un automóvil deportivo, Marty viaja accidentalmente al año 1955. Allí se encontrará con sus padres cuando eran jóvenes, pero impide su primer encuentro. A partir de entonces, y con el tiempo en su contra, McFly deberá conseguir que se enamoren para que se casen y él no deje de existir.</p>
+      <p class="line-clamp-descripción">Marty McFly es un adolescente amigo de Doc, un científico a los que todos menos él toman por chiflado. Cuando Doc crea una máquina para viajar en el tiempo en forma de un automóvil deportivo, Marty viaja accidentalmente al año 1955. Allí se encontrará con sus padres cuando eran jóvenes, pero impide su primer encuentro. A partir de entonces, y con el tiempo en su contra, McFly deberá conseguir que se enamoren para que se casen y él no deje de existir.</p>
       </div>
     </div>
   </div>

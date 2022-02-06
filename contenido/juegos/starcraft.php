@@ -1,6 +1,5 @@
 <?php
-
-include '../base/base.php'
+include '../../base/base.php'
  ?>  
 <!doctype html>
 <head>
@@ -21,7 +20,7 @@ include '../base/base.php'
       <p>Año:  1998</p>
       <p>Estrategia en tiempo real </p>
       <h4>sinopsis:</h4>
-      <p class="line-clamp">StarCraft es un videojuego de estrategia en tiempo real de ciencia ficción militar desarrollado por Blizzard Entertainment. El primer juego de la serie StarCraft fue lanzado para Microsoft Windows el 31 de marzo de 1998.3​ Es uno de los juegos más vendidos para la computadora personal4​con más de 11 millones de copias vendidas a nivel mundial hasta febrero de 2009. Una versión para Mac OS fue lanzada en marzo de 1999, y una adaptación para el Nintendo 64, desarrollada en conjunto con Mass Media Interactive Entertainment, fue lanzada el 13 de junio del 2000.</p>
+      <p class="line-clamp-descripción">StarCraft es un videojuego de estrategia en tiempo real de ciencia ficción militar desarrollado por Blizzard Entertainment. El primer juego de la serie StarCraft fue lanzado para Microsoft Windows el 31 de marzo de 1998.3​ Es uno de los juegos más vendidos para la computadora personal4​con más de 11 millones de copias vendidas a nivel mundial hasta febrero de 2009. Una versión para Mac OS fue lanzada en marzo de 1999, y una adaptación para el Nintendo 64, desarrollada en conjunto con Mass Media Interactive Entertainment, fue lanzada el 13 de junio del 2000.</p>
       </div>
     </div>
   </div>

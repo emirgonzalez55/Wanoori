@@ -1,7 +1,6 @@
 <?php
-
-include '../base/base.php'
- ?>  
+include '../../base/base.php'
+?>  
 <!doctype html>
 <head>
   <title>matrix</title>
