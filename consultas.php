@@ -48,6 +48,7 @@ if (!empty($_POST['consulta'])) {
   if (is_array($result) || is_object($result)) {
     foreach ($result as $dato) {
   ?>
+  <div>
       <main class="grid">
         <article class="text-white bg-dark mb-3 ">
           <?php echo  $dato->imagen; ?>
@@ -60,17 +61,17 @@ if (!empty($_POST['consulta'])) {
           </div>
         </article>
       </main>
+  </div>
+      
   <?php
     }
   }
   ?>
 
-  <body>
 
-  </body>
-
-  </html>
-  <?php
-  $conexion = null;
-  $em = null;
-  ?>
+</body>
+</html>
+<?php
+$conexion = null;
+$em = null;
+?>
