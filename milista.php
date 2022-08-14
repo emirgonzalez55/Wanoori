@@ -2,7 +2,7 @@
 include 'base/base.php';
 require 'bd.php';
 
-$em = $conexion->prepare('SELECT f.idfavorito, c.nombre, c.imagen FROM favoritos f INNER JOIN contenidos c on f.idpelicula=c.idpelicula WHERE idusuario = :idusuario');
+$em = $conexion->prepare('SELECT f.idfavorito, c.nombre, c.img FROM favoritos f INNER JOIN contenidos c on f.idpelicula=c.idpelicula WHERE idusuario = :idusuario');
 $em->bindParam(':idusuario', $_SESSION['idusuario']);
 $em->execute();
 $result = $em->fetchAll(PDO::FETCH_OBJ);
@@ -25,7 +25,7 @@ $result = $em->fetchAll(PDO::FETCH_OBJ);
 	?>
 		<main class="grid">
 			<article class="text-white bg-dark mb-3 ">
-				<?php echo  $dato->imagen; ?>
+			<a href="contenido.php?contenido=<?php echo $dato->nombre; ?>"> <img src="data:image;base64,<?php echo base64_encode($dato->img); ?>"></a>
 				<div class="card-title ">
 					<p class="line-clamp"><?php echo $dato->nombre;  ?></p>
 					<a class="bi bi-trash delete" href="eliminardelista.php?idfavorito=<?php echo $dato->idfavorito; ?>"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
