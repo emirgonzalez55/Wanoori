@@ -8,7 +8,7 @@ require 'bd.php';
     $message = ''; 
     $em='';
     $em = $conexion->prepare('SELECT idpelicula,idusuario  FROM favoritos WHERE idpelicula = :idpelicula AND  idusuario = :idusuario');
-    $em->bindParam(':idpelicula', $_GET['idpelicula']);
+    $em->bindParam(':idpelicula', $_GET['contenido']);
     $em->bindParam(':idusuario', $_SESSION['idusuario']);
     $em->execute();
     $results = $em->fetch(PDO::FETCH_ASSOC); 
@@ -17,7 +17,7 @@ require 'bd.php';
  
     $sql = "INSERT INTO favoritos (idpelicula, idusuario ) VALUES (:idpelicula, :idusuario)";
     $em = $conexion->prepare($sql);
-    $em->bindParam(':idpelicula', $_GET['idpelicula']);
+    $em->bindParam(':idpelicula', $_GET['contenido']);
     $em->bindParam(':idusuario', $_SESSION['idusuario']);
   
 

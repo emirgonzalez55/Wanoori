@@ -269,8 +269,6 @@ h1 {
 }
 .plus {
   color: white;
-
-  
 }
 .delete{
   color: white;
@@ -297,7 +295,19 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
   border-top: 1px solid;
+}
+.version{
+  text-align: right;
+  float: right;
+  max-width: max-content;
 
+}
+.comentarios{
+  padding-top: 1%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }

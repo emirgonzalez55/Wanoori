@@ -16,7 +16,7 @@
     <link href="/Wanoori/css/styles.css" rel="stylesheet">
   </head>
 <body>  
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
   <div class="container-fluid">
     <a class="navbar-brand" href="/Wanoori/inicio.php">WANOORI</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,8 @@
             <li><a class="dropdown-item " href="#">Usuario:
             <?php print_r($_SESSION['user_id']); ?>
             </a></li>
-            <li><a class="dropdown-item" href="#" id="boton">Modo oscuro</a></li>
+            
+            <li><button class="dropdown-item" id="boton">Modo oscuro</button></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item active" href="/Wanoori/logout.php">Cerrar sesion</a></li>
           </ul>
@@ -61,19 +62,16 @@
     </div>
 </nav>
 
-<div class=" lead ">
-  <footer class="py-2 lead">
-    <div class="">
-      <span class="">&copy; 2022 Emir S.A</span>
+<div class="mensaje">
+  <footer class="py-2">
+    <div>
+      <span class="">© 2022 EMIR S.A</span>
+      <span class="version"><a class="mensaje" style="text-decoration: none" href="/Wanoori/version.php">version 1.2.0</a></span>  
     </div>
   </footer>
 </div>
 
-
- 
     <script src="/Wanoori/css/modo.js"></script>
     <script src="/Wanoori/css/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
