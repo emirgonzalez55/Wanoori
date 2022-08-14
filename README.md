@@ -12,7 +12,6 @@ Actualización version 1.1.1 beta (1.2202062000) Fecha: 06-02-2022<br/>
 • Mejoras visuales.<br/>
 Actualización version 1.1.0 beta (1.211111934) Fecha: 11-11-2021<br/>
 • Corrección de errores.<br/>
-• Contenido nuevo.<br/>
 • Mejoras visuales.<br/>
 • Se mejoro el diseño web adaptable(responsive).<br/>
 Actualización version 1.0.4 beta (1.211105710) Fecha: 05-11-2021<br/>
