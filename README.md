@@ -1,6 +1,6 @@
 # Wanoori
 El proyecto wanoori es una aplicación web.<br />
-La principal idea de esta web es poder guardar series, películas y juegos en listas.
+La principal idea de esta web es poder agregar series, películas y juegos en una lista(favoritos).
 
 Versión actual 1.2.5 beta
 
