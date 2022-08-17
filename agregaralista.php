@@ -22,18 +22,15 @@ require 'bd.php';
   
 
 
-
+    $contenido = $_GET['contenido'];
     if ($em->execute()) {
-        $message = 'Error detectado';
-        header('Location: milista.php');
+        header("Location: contenido.php?contenido=$contenido");
     } else {
+        echo "Error";
         $message = 'Error detectado';
     }
 }else {
-  echo'<script type="text/javascript">
-  alert("Ya agregaste este contenido a tu lista!");
-  window.location.href="milista.php";
-  </script>';
+  echo "Error";
 }
 ob_end_flush();
 ?>
