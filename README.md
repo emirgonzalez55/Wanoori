@@ -4,7 +4,7 @@ La principal idea de esta web es poder guardar series, películas y juegos en li
 
 Versión actual 1.2.5 beta
 
-Actualización version 1.2.5 beta (1.2208171700) Fecha: 17-08-2022<<br/>
+Actualización version 1.2.5 beta (1.2208171700) Fecha: 17-08-2022<br/>
 • Funciones mejoradas. <br>
 • Corrección de errores.<br>
 • Mejoras visuales.<br>
