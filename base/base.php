@@ -49,10 +49,9 @@
             <img src="/Wanoori/img/login.png" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end " aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item " href="#">Usuario:
+            <li><button class="dropdown-item " href="#">Usuario:
             <?php print_r($_SESSION['user_id']); ?>
-            </a></li>
-            
+            </button></li>
             <li><button class="dropdown-item" id="boton">Modo oscuro</button></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item active" href="/Wanoori/logout.php">Cerrar sesion</a></li>
@@ -62,16 +61,16 @@
     </div>
 </nav>
 
-<div class="mensaje">
+<div>
   <footer class="py-2">
     <div>
-      <span class="">© 2022 EMIR S.A</span>
-      <span class="version"><a class="mensaje" style="text-decoration: none" href="/Wanoori/version.php">version 1.2.0</a></span>  
+      <span>© 2022 EMIR S.A</span>
+      <span><a class="version" href="/Wanoori/version.php">version 1.2.5</a></span>  
     </div>
   </footer>
 </div>
 
-    <script src="/Wanoori/css/modo.js"></script>
+    <script src="/Wanoori/css/modo-oscuro.js"></script>
     <script src="/Wanoori/css/bootstrap.bundle.min.js"></script>
 </body>
 </html>
