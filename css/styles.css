@@ -1,21 +1,33 @@
+body.modo-oscuro img {
+  filter: brightness(0.8) contrast(1.2);
+}
+.modo-oscuro{
+  background-color: rgb(47, 47, 47);
+}
+body.modo-oscuro h1 {
+  color: #FDFEFE;
+}
+body.modo-oscuro p {
+  color: #FDFEFE;
+}
+body.modo-oscuro footer {
+  color: #FDFEFE;
+}
 .form-signin {
   width: 100%;
   max-width: 330px;
   padding: 15px;
   margin: auto;
   padding-top: 100px;
-
 }
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
-
 .form-signin input[type="text"] {
   margin-bottom: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
@@ -24,37 +36,6 @@
 /* Show it is fixed to the top */
 body {
   padding-top: 4.5rem;
-}
-body.dark-theme img {
-  filter: brightness(.8) contrast(1.2);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-      --color-bg: rgb(47, 47, 47);
-      --color-texto: #FDFEFE;
-  }
-
-  body.light-theme {
-      --color-bg: #FDFEFE;
-      --color-texto: #17202A;
-  }
-
-  img {
-      filter: brightness(.8) contrast(1.2);
-  }
-  
-}
-
-body {
-  background-color: var(--color-bg);
-}
-
-h1 {
-  color: var(--color-texto);
-}
-.lead{
-  color: var(--color-texto)
 }
 .boton{
   display: block;
@@ -68,14 +49,6 @@ h1 {
   padding: 10px;
   vertical-align:auto;
   text-align: center;
-  
-}
-.col-md-3{
-  color: var(--color-texto)
-}
-.mensaje{
-  color: var(--color-texto)
-  
 }
 .Tablas{
   color: var(--color-texto)
@@ -103,7 +76,6 @@ h1 {
    width: 30%;
    margin-left: auto;
    margin-right: auto;
-
 }
 .Search{
   display: flex;
@@ -112,19 +84,15 @@ h1 {
   margin-right: auto;
   width: 100%;
 }
-
 .user{
   margin: auto;
   background-color:white;
-
- 
 }
 .table{
   margin: auto;
   width: 50%;
   border: 1px solid rgb(0, 0, 0);
 }
-
 .titulo{
   color: var(--color-texto)
 }
@@ -133,16 +101,14 @@ h1 {
   margin-left: 20px;
   margin-right: 20px;
 }
-.pelicula{
-  width: 100%;
-  margin: auto;
-  margin-top: auto;
-}
 .trailer{
-  width: 90%;
+  width: 80%;
   height: 600px;
   margin: auto;
   margin-top: auto;
+}
+.trailerdiv{
+  text-align: center;
 }
 .card-body{
   width: 100%;
@@ -167,15 +133,9 @@ h1 {
     margin: auto;
     margin-top: auto;
   }
-  .pelicula{
-    width: 100%;
-    margin: auto;
-    margin-top: auto;
-  }
   .img-fluid {
-    max-width: 40%;
-    margin-left: 20%;
-    margin-right: 20%;
+    max-width: 100%;
+    
   }
 }
 .dropdown-menu{
@@ -303,11 +263,34 @@ footer {
   text-align: right;
   float: right;
   max-width: max-content;
-
+  text-decoration: none;
+  color: #212529;
+}
+body.modo-oscuro .version {
+  color: #FDFEFE;
 }
 .comentarios{
   padding-top: 1%;
   text-align: center;
   margin: auto;
   width: 50%;
+}
+.contenido{
+  margin: auto;
+}
+.carta{
+  float: left;
+  text-align: center;
+}
+.imagen{
+  padding-bottom: 1%;
+}
+.link-titulo{
+  color: #FDFEFE;
+}
+a:hover .link-titulo {
+  color: #0d6efd;
+}
+a:link {
+  text-decoration: none;
 }
