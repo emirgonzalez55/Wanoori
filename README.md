@@ -2,8 +2,10 @@
 El proyecto wanoori es una aplicación web.<br />
 La principal idea de esta web es poder agregar series, películas y juegos en una lista(favoritos).
 
-Versión actual 1.2.5 beta
+Versión actual 1.2.6 beta
 
+Actualización	version 1.2.6 beta (1.2208191400)	Fecha: 19-08-2022<br/>
+• Corrección de errores.<br/>
 Actualización version 1.2.5 beta (1.2208171700) Fecha: 17-08-2022<br/>
 • Funciones mejoradas. <br>
 • Corrección de errores.<br>
