@@ -14,6 +14,16 @@ include 'base/base.php';
     <table class="table table-striped table-dark"> 
         <tr>
             <th>Actualización </th>
+            <th>version 1.2.6 beta (1.2208191400)</th>
+            <th>Fecha: 19-08-2022</th>
+            
+        </tr>
+        <tr>
+            <td colspan="3">• Corrección de errores. 
+            </td>
+        </tr>
+        <tr>
+            <th>Actualización </th>
             <th>version 1.2.5 beta (1.2208171700)</th>
             <th>Fecha: 17-08-2022</th>
             

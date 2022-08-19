@@ -65,7 +65,7 @@
   <footer class="py-2">
     <div>
       <span>© 2022 EMIR S.A</span>
-      <span><a class="version" href="/Wanoori/version.php">version 1.2.5</a></span>  
+      <span><a class="version" href="/Wanoori/version.php">version 1.2.6</a></span>  
     </div>
   </footer>
 </div>
